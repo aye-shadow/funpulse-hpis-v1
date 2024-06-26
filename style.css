@@ -7222,7 +7222,6 @@ span.scatter-close {
 .showcase-interactive-grid .project-details .nayla-button {
     margin-bottom: 0;
     pointer-events: all;
-    --mainColor: $fff;
 }
 
 .showcase-interactive-grid .showcase-project.project-right .project-details {

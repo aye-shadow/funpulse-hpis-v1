@@ -17,6 +17,30 @@
     #mouseCursor .main-circle {
         fill: #d77c2e!important;
     }
+
+    .single-project-title {
+        color: black;
+    }
+
+    #specific-button {
+        color: black; 
+        background:#145696; 
+        border-radius: 50px; 
+        padding: 1rem 2rem; 
+        position: relative; 
+        margin-bottom: 5rem;
+    }
+
+    img {
+        object-fit: cover; 
+        object-position: 50% 0; 
+        width: 100%; 
+        height: auto;
+    }
+
+    #color-black {
+        color: black!important;
+    }
 </style>
 
 <head>
@@ -121,16 +145,16 @@
                         <ul class="menu main-menu">
 
                             <li class="menu-item">
-                                <a href="#.">HOME</a>
+                                <a href="index.html">HOME</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#.">ABOUT</a>
+                                <a href="about.html">ABOUT</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#.">SERVICES</a>
+                                <a href="services.html">SERVICES</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#.">CONTACT</a>
+                                <a href="contact.html">CONTACT</a>
                             </li>
                         </ul>
                     </nav>
@@ -158,7 +182,7 @@
                         <!-- Image -->
                         <div style="height: 100vh;">
 
-                            <img src="img/AdobeStock_260336691-scaled.jpeg" style="object-fit: cover; object-position: 50% 0; width: 100%; height: auto; filter: brightness(50%)" alt="Image description">
+                            <img src="img/AdobeStock_260336691-scaled.jpeg" style="filter: brightness(50%)">
 
                         </div>
                         <!--/ Image -->
@@ -200,7 +224,7 @@
                             <!-- Button -->
                             <div class="nayla-button underline icon-right" data-icon="arrow_outward">
 
-                                <a href="#.">Works</a>
+                                <a href="services.html">Services</a>
 
                             </div>
                             <!--/ Button -->
@@ -214,7 +238,7 @@
                 <!-- the scrollable "our solutions" part -->
                 <div id="content" class="page-content">
 
-                    <div class="section fullscreen" style="padding-top: 150px" id="carouselPin">
+                    <div class="section fullscreen" style="padding-top: 2rem" id="carouselPin">
     
                         <div class="wrapper-full">
     
@@ -243,15 +267,16 @@
                                 <!--/ Empty Space -->
     
                                 <!-- Button -->
-                                <div class="nayla-button underline">
+                                <div id="specific-button" class="nayla-button underline">
     
-                                    <a href="pages/about-digital-gray.html">ABOUT US</a>
+                                    <a href="about.html">ABOUT US</a>
     
                                 </div>
                                 <!--/ Button -->
     
                             </div>
     
+                            <!-- carousel with our solutions -->
                             <div class="c-col-12 align-bottom no-margin">
     
                                 <!-- Dynamic Carousel -->
@@ -265,14 +290,12 @@
                                             <!-- Single Project -->
                                             <div class="single-project">
     
-                                                <!-- Project URL --><a href="projects/project-primo.html">
-    
                                                     <div class="single-project-wrap">
     
                                                         <!-- Image -->
                                                         <div class="single-project-image">
     
-                                                            <img alt="Single Project Image" src="img/projects/primo_featured.jpg">
+                                                            <img src="img/aIR-cOOLERS.jpg">
     
                                                         </div>
                                                         <!--/ Image -->
@@ -281,17 +304,15 @@
                                                         <div class="single-project-meta">
     
                                                             <div class="single-project-title">
-                                                                <h6>INDUSTRIAL RADIATORSWe</h6>
+                                                                <h6>INDUSTRIAL RADIATORS</h6>
                                                             </div>
     
-                                                            <div class="single-project-category">Photography</div>
+                                                            <!-- <div class="single-project-category">Photography</div> -->
     
                                                         </div>
                                                         <!--/ Meta -->
     
                                                     </div>
-    
-                                                </a>
     
                                             </div>
                                             <!--/ Single Project -->
@@ -305,14 +326,12 @@
                                             <!-- Single Project -->
                                             <div class="single-project">
     
-                                                <!-- Project URL --><a href="projects/project-architexture.html">
-    
                                                     <div class="single-project-wrap">
     
                                                         <!-- Image -->
                                                         <div class="single-project-image">
     
-                                                            <img alt="Single Project Image" src="img/projects/architexture_1.jpg">
+                                                            <img alt="Single Project Image" src="img/IMG_8723.jpg">
     
                                                         </div>
                                                         <!--/ Image -->
@@ -324,14 +343,10 @@
                                                                 <h6>Diesel Engines and Generators</h6>
                                                             </div>
     
-                                                            <div class="single-project-category">Photography</div>
-    
                                                         </div>
                                                         <!--/ Meta -->
     
                                                     </div>
-    
-                                                </a>
     
                                             </div>
                                             <!--/ Single Project -->
@@ -345,22 +360,16 @@
                                             <!-- Single Project -->
                                             <div class="single-project">
     
-                                                <!-- Project URL --><a href="projects/project-uxunleashed.html">
-    
                                                     <div class="single-project-wrap">
     
                                                         <!-- Image -->
                                                         <div class="single-project-image">
     
-                                                            <div class="nayla-video n-vimeo no-interactions" data-controls="false" data-autoplay=true data-muted=true data-loop=true>
-    
-                                                                <div class="n-video" data-plyr-provider="vimeo" data-plyr-embed-id="852807864"></div>
-    
-                                                            </div>
+                                                            <img alt="Single Project Image" src="img/aIR-cOOLERS.jpg">
     
                                                         </div>
                                                         <!--/ Image -->
-    
+
                                                         <!-- Meta -->
                                                         <div class="single-project-meta">
     
@@ -368,14 +377,10 @@
                                                                 <h6>Coolers & Heat Exchangers</h6>
                                                             </div>
     
-                                                            <div class="single-project-category">UX/UI Design</div>
-    
                                                         </div>
                                                         <!--/ Meta -->
     
                                                     </div>
-    
-                                                </a>
     
                                             </div>
                                             <!--/ Single Project -->
@@ -406,7 +411,7 @@
                         <!-- Single Image -->
                         <div class="single-image">
 
-                            <img alt="Single Image" src="img/office_1.jpg">
+                            <img alt="Single Image" src="img/globalis_img_1.png">
 
                         </div>
                         <!--/ Single Image -->
@@ -428,9 +433,9 @@
                         <!--/ Empty Space -->
 
                         <!-- Button -->
-                        <div class="nayla-button fill button-sm">
+                        <div id="specific-button" class="nayla-button underline">
 
-                            <a href="#">OUR SERVICES</a>
+                            <a href="services.html">OUR SERVICES</a>
 
                         </div>
                         <!--/ Button -->
@@ -653,26 +658,45 @@
 
                 </div>
 
-                <div class="section">
+                <!-- quality and control part -->
+                <div class="section fullscreen" style="height: 100vh">
 
-                    <div class="wrapper">
+                    <div class="section-background">
 
-                        <div class="c-col-8 sm-12 col-center">
+                        <!-- Image -->
+                        <div style="height: 100%; width:100%">
 
-                            <div class="text-wrapper align-center">
+                            <img src="img/bg1.jpg" style="filter: brightness(50%); background-size: cover; height: 100%; width: 100%">
 
-                                <h1 class="has-anim-text linesUp" style="margin-bottom: 0.3em">Quality and control at every level.</h1>
+                        </div>
+                        <!--/ Image -->
+
+                    </div>
+
+                    <div class="wrapper" style="color: white;">
+
+                        <div class="c-col-12"></div>
+
+                        <div class="c-col-12 self-center">
+
+                            <!-- Text -->
+                            <div class="text-wrapper align-center no-margin">
+
+                                <p class="md-title no-margin has-anim-text charsUp" data-duration=1.5>
+                                    Quality and control at every level
+                                </p>
 
                             </div>
-
-                            <div class="text-wrapper align-center no-margin" style="--width: 60%;">
-
-                                <p class="has-anim-text wordsUp">At Heat Pro quality is not a norm but habit. At regular intervals we keep updating our unit with the most advanced techniques, to deliver best customers. Our assurance department follows an exhaustive checklist. Our quality system processes are in place ensure consistent quality. Today, we earn the reputation for quality, reliability, and complete flexibility to manufacture radiators associated products services matching customer specifications satisfaction. </p>
-
-                            </div>
+                            <!--/ Text -->
 
                         </div>
 
+                        <div class="text-wrapper align-center no-margin" style="--width: 60%;">
+
+                            <p class="has-anim-text wordsUp">At Heat Pro quality is not a norm but habit. At regular intervals we keep updating our unit with the most advanced techniques, to deliver best customers. Our assurance department follows an exhaustive checklist. Our quality system processes are in place ensure consistent quality. Today, we earn the reputation for quality, reliability, and complete flexibility to manufacture radiators associated products services matching customer specifications satisfaction. </p>
+
+                        </div>
+                    
                     </div>
 
                 </div>
@@ -684,25 +708,26 @@
         <!--/ Main -->
 
         <!-- Footer -->
-        <div id="footer" class="site-footer">
+        <div id="footer" class="site-footer" style="height: 100vh!important; box-sizing: border-box; padding-top: 2rem!important">
 
             <div class="footer-wrapper">
 
                 <!-- Footer Top Wrapper -->
                 <div class="wrapper footer-top-wrapper">
 
+                    <!-- Footer Logo -->
                     <div class="c-col-3 sm-12">
 
-                        <!-- Footer Logo -->
                         <div class="single-image" style="width: 50px">
 
                             <img alt="Single Image" src="img/slice 2-03.png">
 
                         </div>
-                        <!--/ Footer Logo -->
 
                     </div>
+                    <!--/ Footer Logo -->
 
+                    <!--/ Footer Title -->
                     <div class="c-col-6 sm-12">
 
                         <!-- Text Wrapper -->
@@ -717,12 +742,13 @@
 
                     </div>
 
+                    <!--/ Contact Us -->
                     <div class="c-col-3 sm-6 hide-mobile">
 
                         <!-- Text -->
                         <div class="text-wrapper align-right">
 
-                            <p><a href="contact.html">Contact Us</a></p>
+                            <p><a id="color-black" href="contact.html" style="font-weight: bold">Contact Us</a></p>
 
                         </div>
                         <!--/ Text -->
@@ -730,8 +756,8 @@
                         <!-- Menu -->
                         <ul class="menu text-h6 align-right">
 
-                            <li><a href="mailto:info@heatprocessor.com">info@heatprocessor.com</a></li>
-                            <li><a href="mailto:sales@heatprocessor.com">sales@heatprocessor.com</a></li>
+                            <li><a id="color-black" href="mailto:info@heatprocessor.com">info@heatprocessor.com</a></li>
+                            <li><a id="color-black" href="mailto:sales@heatprocessor.com">sales@heatprocessor.com</a></li>
 
                         </ul>
                         <!--/ Menu -->
@@ -803,3 +829,5 @@
     <script src="js/gsap.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
+</html>
