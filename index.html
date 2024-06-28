@@ -28,8 +28,13 @@
     <!--/ Favicons -->
 
     <style>
-        a {
-            color: white!important;
+        a#navbar-single-item {
+            color:black!important;
+            font-weight: bold;
+        }
+
+        a#navbar-single-item:hover, a#navbar-single-item:active {
+            color:#ec1c24!important;
         }
         
         #mouseCursor .main-circle {
@@ -53,7 +58,7 @@
     </style>
 </head>
 
-<body data-barba="wrapper">
+<body data-barba="wrapper" style="background: #DCE6E7;">
     <!-- Page Transitions -->
     <div class="nayla-page-transition block up capt-bottom-left default">
 
@@ -75,73 +80,23 @@
 
         <div class="menu-overlay"></div>
 
-        <!-- Site Header -->
-        <div id="header" class="site-header fixed">
-
-            <!-- Header Wrapper -->
-            <div class="header-wrapper wrapper-full">
-
-                <div class="c-col-3 sm-6">
-
-                    <!--  Site Branding -->
-                    <div class="site-branding">
-
-                        <!--  Site Logo -->
-                        <div class="site-logo">
-
-                            <img alt="Site Logo (Dark)" class="dark-logo" src="img/Final logo slice-01.png">
-                            <img alt="Site Logo (Light)" class="light-logo" src="img/Final logo slice-01.png">
-
-                        </div>
-                        <!--/  Site Logo -->
-
-                        <!--  Sticky Logo -->
-                        <div class="sticky-logo">
-
-                            <img alt="Sticky Logo (Dark)" class="sticky-dark-logo" src="img/Final logo slice-01.png">
-                            <img alt="Sticky Logo (Light)" class="sticky-light-logo" src="img/Final logo slice-01.png">
-
-                        </div>
-                        <!--/  Sticky Logo -->
-
-                    </div>
-                    <!--  Site Branding -->
-
-                </div>
-
-                <!-- Nav Bar -->
-                <div class="c-col-6 hide-sticky hide-mobile hide-tablet align-center" style="color:white!important">
-
-                    <nav id="site-navigation" class="main-navigation classic" style="color:white!important">
-
-                        <ul class="menu main-menu" style="color:white!important">
-
-                            <li class="menu-item" style="color:white!important">
-                                <a style="color:white!important" href="index.html">HOME</a>
-                            </li>
-                            <li class="menu-item" style="color:white!important">
-                                <a style="color:white!important" href="index2.html">HOME V2</a>
-                            </li>
-                            <li class="menu-item" style="color:white!important">
-                                <a style="color:white!important" href="about.html">ABOUT</a>
-                            </li>
-                            <li class="menu-item" style="color:white!important">
-                                <a style="color:white!important" href="services.html">SERVICES</a>
-                            </li>
-                            <li class="menu-item" style="color:white!important">
-                                <a style="color:white!important" href="contact.html">CONTACT</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                </div>
-                <!--/ Nav Bar -->
-
-            </div>
-            <!--/ Header Wrapper -->
-
-        </div>
-        <!--/ Site Header -->
+        <nav style="background: white; display:flex; flex-direction: row; justify-content: center; position: fixed; top: 0; left: 0; width: 100%; height: auto!important; z-index: 999; gap: 0 1rem">
+            <img src="img/Final logo slice-01.png" style="width: 6rem; object-fit: contain;">
+            <ul style="list-style: none; display: flex; flex-direction: row; gap: 0 1rem; padding: 1.4rem 0 0 0; margin: 0; height: fit-content;">
+                <li>
+                    <a id="navbar-single-item" href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a id="navbar-single-item" href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a id="navbar-single-item" href="services.html">SERVICES</a>
+                </li>
+                <li>
+                    <a id="navbar-single-item" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- Main -->
         <main id="primary" class="site-main" data-barba="container">
@@ -683,7 +638,7 @@
         <!--/ Main -->
 
         <!-- Footer -->
-        <div id="footer" class="site-footer" style="height: 100vh!important; box-sizing: border-box; padding-top: 2rem!important; background: #d7d7d7">
+        <div id="footer" class="site-footer" style="height: 100vh!important; box-sizing: border-box; padding-top: 2rem!important; background: #A5ACAD">
 
             <div class="footer-wrapper">
 
